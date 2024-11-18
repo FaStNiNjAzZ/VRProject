@@ -1,0 +1,54 @@
+{
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "XRControllers",
+            "id": "24303594-47f1-40c0-bdfe-f384efdc8c7d",
+            "actions": [
+                {
+                    "name": "JoystickR",
+                    "type": "Value",
+                    "id": "b947087d-2ef2-4cbb-b5bd-26ceed32be2e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "JoystickL",
+                    "type": "Value",
+                    "id": "a42fc0cd-c8f2-4632-91f0-2bfa0138e98c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7975ead2-aca7-4cda-8396-f0095fee012e",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JoystickR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "46745eaa-5af2-4795-829a-8fc549127539",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JoystickL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
